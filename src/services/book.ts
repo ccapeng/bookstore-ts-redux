@@ -3,7 +3,7 @@ import { IBook } from "../model";
 
 const BookService = {
   list: () => {
-    let url = "api/book/get_all/";
+    let url = "api/book/";
     return Request.get(url);
   },
   get: (bookId: number) => {

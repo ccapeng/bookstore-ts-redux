@@ -46,8 +46,12 @@ export interface IBook {
   id: number,
   title: string,
   category: number,
+  categoryName: string,
   publisher: number,
-  author: number
+  publisherName: string,
+  author: number,
+  authorFirstName: string,
+  authorLastName: string
 }
 
 export interface IBookListState {

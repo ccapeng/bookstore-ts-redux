@@ -31,7 +31,11 @@ const initialBookState: IBookState = {
     title: "",
     category: 0,
     publisher: 0,
-    author: 0
+    author: 0,
+    categoryName: "",
+    publisherName: "",
+    authorFirstName: "",
+    authorLastName: ""
   },
   status: ""
 }
